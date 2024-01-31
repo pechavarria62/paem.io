@@ -1,0 +1,3 @@
+ connect the pages to the main menu.
+ activate the links.
+ 
