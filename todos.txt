@@ -1,3 +1,4 @@
  connect the pages to the main menu.
  activate the links.
+ add design to website
  
