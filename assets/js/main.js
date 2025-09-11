@@ -17,6 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
       preloader.remove();
     });
   }
+// Toggle extra text visibility and update button label
+  document.getElementById("seeMoreBtn").addEventListener("click", function () {
+  const moreText = document.getElementById("moreText");
+
+  if (moreText.style.display === "none") {
+    // Show hidden text and change button to "See Less"
+    moreText.style.display = "inline";
+    this.textContent = "See Less";
+  } else {
+    // Hide text again and change button back to "See More"
+    moreText.style.display = "none";
+    this.textContent = "See More";
+  }
+});
 
   /**
    * Sticky Header on Scroll

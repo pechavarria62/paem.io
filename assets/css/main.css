@@ -653,6 +653,21 @@ section {
 	top: -3px;
 	color: var(--color-primary);
 }
+/* hide extra text initially */
+#moreText {
+  display: none;
+}
+
+#seeMoreBtn {
+  color: #4CAF50;
+  cursor: pointer;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+#seeMoreBtn:hover {
+  color: #45a049;
+}
 
 .about .content p:last-child {
 	margin-bottom: 0;
@@ -822,7 +837,7 @@ section {
 	background-size: cover;
 	padding: 100px 60px;
 	border-radius: 15px;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .call-to-action h3 {
